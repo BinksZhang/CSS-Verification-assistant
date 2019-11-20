@@ -52,7 +52,7 @@ empty_st =[
      n2 !hv-> 12; n1 !hv-> 11; emp_heapB)
     ).
 ```
-下面图片展示了用户在以Coq的交互模式（Coqide）对目标进行证明时的效果![Proving](C:\Users\binks zhang\Documents\files_backup\code4paper\Proving.png)
+下面图片展示了用户在以Coq的交互模式（Coqide）对目标进行证明时的效果![Proving](https://github.com/BinksZhang/HDFS-Verification-assistant/blob/master/Proving.png)
 
 左侧为用户构造的证明策略，右侧为Coq随策略执行自动生成的待证目标以及系统状态。
 
