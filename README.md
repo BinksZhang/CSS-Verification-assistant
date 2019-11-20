@@ -8,9 +8,9 @@
 
 ## 使用环境
 
-下载8.8.0版本的CoqIde，可以直接应用本工具。
+[下载8.8.0版本的CoqIde]( https://github.com/coq/coq/releases/tag/V8.8.0 )，可以直接应用本工具。
 
-对于不同版本的CoqIde，需要先对每个.v文件进行编译（Compile Buffer），之后同样可以使用。
+对于[不同版本的CoqIde](https://coq.inria.fr/news/)，需要先对每个.v文件进行编译（Compile Buffer），之后同样可以使用。
 
 ## 工具组成
 
