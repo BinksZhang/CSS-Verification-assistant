@@ -1,0 +1,69 @@
+DIGEST b254baecaae4ee649e46897ad0418e45
+Futil
+R15:32 Coq.Strings.String <> <> lib
+ind 46:47 <> id
+constr 61:62 <> Id
+R77:80 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R81:82 util <> id ind
+R71:76 Coq.Strings.String <> string ind
+def 97:102 <> beq_id
+R127:129 util <> id2 var
+R123:125 util <> id1 var
+R140:141 util <> Id constr
+R147:148 util <> Id constr
+R159:168 Coq.Strings.String <> string_dec def
+R191:195 Coq.Init.Datatypes <> false constr
+R181:184 Coq.Init.Datatypes <> true constr
+prf 213:227 <> beq_id_true_iff
+R246:247 util <> id ind
+R269:273 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R262:264 Coq.Init.Logic <> :type_scope:x_'='_x not
+R252:257 util <> beq_id def
+R261:261 util <> y var
+R259:259 util <> x var
+R265:268 Coq.Init.Datatypes <> true constr
+R275:277 Coq.Init.Logic <> :type_scope:x_'='_x not
+R274:274 util <> x var
+R278:278 util <> y var
+R324:329 util <> beq_id def
+R374:383 Coq.Strings.String <> string_dec def
+R374:383 Coq.Strings.String <> string_dec def
+R439:444 util <> beq_id def
+R484:493 Coq.Strings.String <> string_dec def
+R484:493 Coq.Strings.String <> string_dec def
+prf 565:575 <> beq_id_refl
+R590:591 util <> id ind
+R607:609 Coq.Init.Logic <> :type_scope:x_'='_x not
+R597:602 util <> beq_id def
+R606:606 util <> s var
+R604:604 util <> s var
+R610:613 Coq.Init.Datatypes <> true constr
+R644:649 util <> beq_id def
+R678:687 Coq.Strings.String <> string_dec def
+R678:687 Coq.Strings.String <> string_dec def
+prf 765:776 <> false_beq_id
+R795:796 util <> id ind
+R807:811 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R802:805 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R801:801 util <> x var
+R806:806 util <> y var
+R822:824 Coq.Init.Logic <> :type_scope:x_'='_x not
+R812:817 util <> beq_id def
+R821:821 util <> y var
+R819:819 util <> x var
+R825:829 Coq.Init.Datatypes <> false constr
+R863:868 util <> beq_id def
+R921:930 Coq.Strings.String <> string_dec def
+R921:930 Coq.Strings.String <> string_dec def
+R1020:1029 Coq.Strings.String <> string_dec def
+R1020:1029 Coq.Strings.String <> string_dec def
+R1072:1074 Coq.Init.Logic <> not def
+def 1139:1149 <> option_elim
+R1156:1158 Coq.Init.Datatypes <> nat ind
+R1166:1171 Coq.Init.Datatypes <> option ind
+R1173:1175 Coq.Init.Datatypes <> nat ind
+R1180:1182 Coq.Init.Datatypes <> nat ind
+R1195:1195 util <> o var
+R1206:1209 Coq.Init.Datatypes <> Some constr
+R1224:1227 Coq.Init.Datatypes <> None constr
+R1232:1232 util <> d var
