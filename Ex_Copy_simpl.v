@@ -15,8 +15,7 @@ Definition Copy :=
 
 Definition no4_eq (n1 n2 n3 n4 : nat) :=
    n2 <> n1 /\ n1 <> n3 /\ n1 <> n4 
-/\ n2 <> n3 /\ n2 <> n4 /\ n3 <> n4
-.
+/\ n2 <> n3 /\ n2 <> n4 /\ n3 <> n4.
 
 Fact Copy_Correct :
 forall n1 n2 n3 n4,
