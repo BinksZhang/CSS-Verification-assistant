@@ -7,7 +7,7 @@ Definition DeleteF :=
   CFdelete f1;;
   CBlookup bc (BKAddr f1 (AId i)).
 
-Example Delete_corr :
+Fact Delete_corr :
   empty_st =[ 
     DeleteF
   ]=> Abt.
