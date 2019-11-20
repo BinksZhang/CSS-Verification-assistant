@@ -18,7 +18,7 @@ Definition no4_eq (n1 n2 n3 n4 : nat) :=
 /\ n2 <> n3 /\ n2 <> n4 /\ n3 <> n4
 .
 
-Example Copy_Correct :
+Fact Copy_Correct :
 forall n1 n2 n3 n4,
  no4_eq n1 n2 n3 n4 ->
 empty_st =[
@@ -73,7 +73,8 @@ Proof.
            try apply neq_comm; trivial.
            ++ (*确认循环变量i更新为2*)
            apply E_Ass. auto.
-      * eapply E_WhileLoop.
+      * (*第二次循环和第一次循环证明过程类似*)
+        eapply E_WhileLoop.
         ** reflexivity.
         ** eapply E_Seq.
         --- eapply E_Blookup.
@@ -81,19 +82,24 @@ Proof.
             rewrite hB_update_neq,hB_update_eq.
             reflexivity. trivial.
         --- eapply E_Seq.
-           +++ eapply E_FcontentAppend with (loc := n4);
+           +++ (*令n4为新建的存储地址*)
+               eapply E_FcontentAppend with (loc := n4);
                try reflexivity.
+               (*确认n4未被分配*)
                repeat rewrite hB_update_neq;
                try apply neq_comm; trivial.
            +++ apply E_Ass.
                reflexivity.
         ** simpl.
+           (*将所得状态进行化简*)
            rewrite sV_update_shadow.
            rewrite sV_update_shadow.
            rewrite sB_update_shadow.
            repeat rewrite sF_update_shadow.
            repeat rewrite hB_update_shadow.
+           (*确认循环可终止*)
            eapply E_WhileEnd.
+           (*确认前后状态一致*)
            reflexivity.
 Qed.
 
