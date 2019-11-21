@@ -20,7 +20,7 @@
 - language.v   ：包含表达式和命令的语法
 - state.v       ： 定义系统状态
 - semantic.v  ：定义表达式和命令的操作语义，包含了命令的规则
-- CSSsVerification.v  ：整合所有部件
+- CSSsVerification.v  ：整合所有部件并声明部分变量
 - Ex_deletef.v  ：例子—证明读取已删除文件引发的报错
 - Ex_Copy.v :例子：证明创建以及拷贝文件程序的正确性
 
