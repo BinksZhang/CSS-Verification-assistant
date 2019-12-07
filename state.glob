@@ -1,469 +1,469 @@
-DIGEST 911245470c181c8e6f724d9f3c579ee6
+DIGEST 20066fb9b01c9f58fb46530e83a89958
 Fstate
 R15:18 util <> <> lib
-R20:24 Logic <> <> lib
-R42:56 Coq.Arith.Arith <> <> lib
-R74:86 Coq.Bool.Bool <> <> lib
-R104:117 Coq.Lists.List <> <> lib
-R135:152 Coq.Strings.String <> <> lib
-R170:203 Coq.Logic.FunctionalExtensionality <> <> lib
-def 275:280 <> storeV
-R287:290 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R291:293 Coq.Init.Datatypes <> nat ind
-R285:286 util <> id ind
-def 307:312 <> storeB
-R319:322 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R323:325 Coq.Init.Datatypes <> nat ind
-R317:318 util <> id ind
-def 339:344 <> storeF
-R351:354 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R355:358 Coq.Init.Datatypes <> list ind
-R360:362 Coq.Init.Datatypes <> nat ind
-R349:350 util <> id ind
-def 436:440 <> heapV
-R448:451 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R452:457 Coq.Init.Datatypes <> option ind
-R459:461 Coq.Init.Datatypes <> nat ind
-R445:447 Coq.Init.Datatypes <> nat ind
-def 475:479 <> heapB
-R487:490 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R491:496 Coq.Init.Datatypes <> option ind
-R498:500 Coq.Init.Datatypes <> nat ind
-R484:486 Coq.Init.Datatypes <> nat ind
-def 532:540 <> emp_heapV
-R544:548 state <> heapV def
-R563:565 Coq.Init.Datatypes <> nat ind
-R571:574 Coq.Init.Datatypes <> None constr
-def 589:597 <> emp_heapB
-R601:605 state <> heapB def
-R620:622 Coq.Init.Datatypes <> nat ind
-R628:631 Coq.Init.Datatypes <> None constr
-def 687:693 <> in_domV
-R699:701 Coq.Init.Datatypes <> nat ind
-R709:713 state <> heapV def
-R728:734 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R736:737 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R742:744 Coq.Init.Logic <> :type_scope:x_'='_x not
-R738:739 state <> hv var
-R741:741 state <> l var
-R745:748 Coq.Init.Datatypes <> Some constr
-R750:750 state <> n var
-def 765:771 <> in_domB
-R777:779 Coq.Init.Datatypes <> nat ind
-R787:791 state <> heapB def
-R806:812 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R814:815 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R820:822 Coq.Init.Logic <> :type_scope:x_'='_x not
-R816:817 state <> hb var
-R819:819 state <> l var
-R823:826 Coq.Init.Datatypes <> Some constr
-R828:828 state <> n var
-def 887:897 <> not_in_domV
-R903:905 Coq.Init.Datatypes <> nat ind
-R913:917 state <> heapV def
-R936:938 Coq.Init.Logic <> :type_scope:x_'='_x not
-R932:933 state <> hv var
-R935:935 state <> l var
-R939:942 Coq.Init.Datatypes <> None constr
-def 957:967 <> not_in_domB
-R973:975 Coq.Init.Datatypes <> nat ind
-R983:987 state <> heapB def
-R1006:1008 Coq.Init.Logic <> :type_scope:x_'='_x not
-R1002:1003 state <> hb var
-R1005:1005 state <> l var
-R1009:1012 Coq.Init.Datatypes <> None constr
-prf 1089:1103 <> in_not_in_dec_V
-R1121:1121 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
-R1133:1137 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
-R1153:1153 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
-R1122:1128 state <> in_domV def
-R1132:1132 state <> h var
-R1130:1130 state <> l var
-R1138:1148 state <> not_in_domV def
-R1152:1152 state <> h var
-R1150:1150 state <> l var
-R1186:1192 state <> in_domV def
-R1195:1205 state <> not_in_domV def
-prf 1283:1297 <> in_not_in_dec_B
-R1315:1315 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
-R1327:1331 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
-R1347:1347 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
-R1316:1322 state <> in_domB def
-R1326:1326 state <> h var
-R1324:1324 state <> l var
-R1332:1342 state <> not_in_domB def
-R1346:1346 state <> h var
-R1344:1344 state <> l var
-R1380:1386 state <> in_domB def
-R1389:1399 state <> not_in_domB def
-def 1513:1521 <> disjointV
-R1531:1535 state <> heapV def
-R1576:1579 Coq.Init.Logic <> :type_scope:x_'\/'_x not
-R1560:1570 state <> not_in_domV def
-R1574:1575 state <> h1 var
-R1572:1572 state <> l var
-R1580:1590 state <> not_in_domV def
-R1594:1595 state <> h2 var
-R1592:1592 state <> l var
-def 1610:1618 <> disjointB
-R1628:1632 state <> heapB def
-R1673:1676 Coq.Init.Logic <> :type_scope:x_'\/'_x not
-R1657:1667 state <> not_in_domB def
-R1671:1672 state <> h1 var
-R1669:1669 state <> l var
-R1677:1687 state <> not_in_domB def
-R1691:1692 state <> h2 var
-R1689:1689 state <> l var
-def 1730:1737 <> h_unionV
-R1747:1751 state <> heapV def
-R1756:1760 state <> heapV def
-R1784:1798 state <> in_not_in_dec_V thm
-R1802:1803 state <> h1 var
-R1800:1800 state <> l var
-R1821:1822 state <> h2 var
-R1824:1824 state <> l var
-R1811:1812 state <> h1 var
-R1814:1814 state <> l var
-def 1839:1846 <> h_unionB
-R1856:1860 state <> heapB def
-R1865:1869 state <> heapB def
-R1893:1907 state <> in_not_in_dec_B thm
-R1911:1912 state <> h1 var
-R1909:1909 state <> l var
-R1930:1931 state <> h2 var
-R1933:1933 state <> l var
-R1920:1921 state <> h1 var
-R1923:1923 state <> l var
-def 1976:1984 <> h_subsetV
-R1994:1998 state <> heapV def
-R2038:2041 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R2046:2048 Coq.Init.Logic <> :type_scope:x_'='_x not
-R2042:2043 state <> h2 var
-R2045:2045 state <> l var
-R2049:2052 Coq.Init.Datatypes <> Some constr
-R2054:2054 state <> n var
-R2029:2031 Coq.Init.Logic <> :type_scope:x_'='_x not
-R2025:2026 state <> h1 var
-R2028:2028 state <> l var
-R2032:2035 Coq.Init.Datatypes <> Some constr
-R2037:2037 state <> n var
-def 2069:2077 <> h_subsetB
-R2087:2091 state <> heapB def
-R2131:2134 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R2139:2141 Coq.Init.Logic <> :type_scope:x_'='_x not
-R2135:2136 state <> h2 var
-R2138:2138 state <> l var
-R2142:2145 Coq.Init.Datatypes <> Some constr
-R2147:2147 state <> n var
-R2122:2124 Coq.Init.Logic <> :type_scope:x_'='_x not
-R2118:2119 state <> h1 var
-R2121:2121 state <> l var
-R2125:2128 Coq.Init.Datatypes <> Some constr
-R2130:2130 state <> n var
-def 2182:2190 <> sV_update
-R2196:2201 state <> storeV def
-R2208:2209 util <> id ind
-R2216:2218 Coq.Init.Datatypes <> nat ind
-R2223:2228 state <> storeV def
-R2248:2253 util <> beq_id def
-R2257:2258 state <> x' var
-R2255:2255 state <> x var
-R2272:2272 state <> s var
-R2274:2275 state <> x' var
-R2265:2265 state <> n var
-def 2290:2298 <> sB_update
-R2304:2309 state <> storeB def
-R2316:2317 util <> id ind
-R2324:2326 Coq.Init.Datatypes <> nat ind
-R2331:2336 state <> storeB def
-R2356:2361 util <> beq_id def
-R2365:2366 state <> x' var
-R2363:2363 state <> x var
-R2380:2380 state <> s var
-R2382:2383 state <> x' var
-R2373:2373 state <> n var
-def 2398:2406 <> sF_update
-R2412:2417 state <> storeF def
-R2424:2425 util <> id ind
-R2434:2437 Coq.Init.Datatypes <> list ind
-R2439:2441 Coq.Init.Datatypes <> nat ind
-R2446:2451 state <> storeF def
-R2471:2476 util <> beq_id def
-R2480:2481 state <> x' var
-R2478:2478 state <> x var
-R2497:2497 state <> s var
-R2499:2500 state <> x' var
-R2488:2490 state <> nli var
-R2537:2545 state <> sV_update def
-not 2513:2513 <> ::x_'!sv->'_x_';'_x
-R2654:2662 state <> sB_update def
-not 2630:2630 <> ::x_'!sb->'_x_';'_x
-R2771:2779 state <> sF_update def
-not 2747:2747 <> ::x_'!sf->'_x_';'_x
-def 2884:2892 <> hV_update
-R2898:2902 state <> heapV def
-R2909:2911 Coq.Init.Datatypes <> nat ind
-R2918:2920 Coq.Init.Datatypes <> nat ind
-R2925:2929 state <> heapV def
-R2949:2955 Coq.Arith.EqNat <> beq_nat syndef
-R2959:2960 state <> l' var
-R2957:2957 state <> l var
-R2979:2979 state <> h var
-R2981:2982 state <> l' var
-R2967:2970 Coq.Init.Datatypes <> Some constr
-R2972:2972 state <> n var
-def 2997:3005 <> hB_update
-R3011:3015 state <> heapB def
-R3022:3024 Coq.Init.Datatypes <> nat ind
-R3031:3033 Coq.Init.Datatypes <> nat ind
-R3038:3042 state <> heapB def
-R3062:3068 Coq.Arith.EqNat <> beq_nat syndef
-R3072:3073 state <> l' var
-R3070:3070 state <> l var
-R3092:3092 state <> h var
-R3094:3095 state <> l' var
-R3080:3083 Coq.Init.Datatypes <> Some constr
-R3085:3085 state <> n var
-R3132:3140 state <> hV_update def
-not 3108:3108 <> ::x_'!hv->'_x_';'_x
-R3249:3257 state <> hB_update def
-not 3225:3225 <> ::x_'!hb->'_x_';'_x
-def 3363:3371 <> hV_remove
-R3376:3380 state <> heapV def
-R3386:3388 Coq.Init.Datatypes <> nat ind
-R3393:3397 state <> heapV def
-R3414:3420 Coq.Arith.EqNat <> beq_nat syndef
-R3424:3424 state <> l var
-R3422:3422 state <> x var
-R3441:3441 state <> h var
-R3443:3443 state <> x var
-R3431:3434 Coq.Init.Datatypes <> None constr
-def 3458:3466 <> hB_remove
-R3471:3475 state <> heapB def
-R3481:3483 Coq.Init.Datatypes <> nat ind
-R3488:3492 state <> heapB def
-R3509:3515 Coq.Arith.EqNat <> beq_nat syndef
-R3519:3519 state <> l var
-R3517:3517 state <> x var
-R3536:3536 state <> h var
-R3538:3538 state <> x var
-R3526:3529 Coq.Init.Datatypes <> None constr
-prf 3569:3580 <> sV_update_eq
-R3628:3630 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3608:3614 state <> ::x_'!sv->'_x_';'_x not
-R3616:3618 state <> ::x_'!sv->'_x_';'_x not
-R3619:3624 state <> storeV var
-R3607:3607 state <> x var
-R3615:3615 state <> v var
-R3627:3627 state <> x var
-R3631:3631 state <> v var
-R3660:3668 state <> sV_update def
-R3681:3691 util <> beq_id_refl thm
-R3681:3691 util <> beq_id_refl thm
-R3681:3691 util <> beq_id_refl thm
-prf 3721:3732 <> sB_update_eq
-R3780:3782 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3760:3766 state <> ::x_'!sb->'_x_';'_x not
-R3768:3770 state <> ::x_'!sb->'_x_';'_x not
-R3771:3776 state <> storeB var
-R3759:3759 state <> x var
-R3767:3767 state <> v var
-R3779:3779 state <> x var
-R3783:3783 state <> v var
-R3812:3820 state <> sB_update def
-R3833:3843 util <> beq_id_refl thm
-R3833:3843 util <> beq_id_refl thm
-R3833:3843 util <> beq_id_refl thm
-prf 3873:3884 <> sF_update_eq
-R3932:3934 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3912:3918 state <> ::x_'!sf->'_x_';'_x not
-R3920:3922 state <> ::x_'!sf->'_x_';'_x not
-R3923:3928 state <> storeF var
-R3911:3911 state <> x var
-R3919:3919 state <> v var
-R3931:3931 state <> x var
-R3935:3935 state <> v var
-R3964:3972 state <> sF_update def
-R3985:3995 util <> beq_id_refl thm
-R3985:3995 util <> beq_id_refl thm
-R3985:3995 util <> beq_id_refl thm
-prf 4025:4036 <> hV_update_eq
-R4082:4084 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4063:4069 state <> ::x_'!hv->'_x_';'_x not
-R4071:4073 state <> ::x_'!hv->'_x_';'_x not
-R4074:4078 state <> heapV var
-R4062:4062 state <> x var
-R4070:4070 state <> v var
-R4081:4081 state <> x var
-R4085:4088 Coq.Init.Datatypes <> Some constr
-R4090:4090 state <> v var
-R4119:4127 state <> hV_update def
-R4143:4154 Coq.Arith.EqNat <> beq_nat_refl thm
-R4143:4154 Coq.Arith.EqNat <> beq_nat_refl thm
-R4143:4154 Coq.Arith.EqNat <> beq_nat_refl thm
-prf 4184:4195 <> hB_update_eq
-R4241:4243 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4222:4228 state <> ::x_'!hb->'_x_';'_x not
-R4230:4232 state <> ::x_'!hb->'_x_';'_x not
-R4233:4237 state <> heapB var
-R4221:4221 state <> x var
-R4229:4229 state <> v var
-R4240:4240 state <> x var
-R4244:4247 Coq.Init.Datatypes <> Some constr
-R4249:4249 state <> v var
-R4278:4286 state <> hB_update def
-R4302:4313 Coq.Arith.EqNat <> beq_nat_refl thm
-R4302:4313 Coq.Arith.EqNat <> beq_nat_refl thm
-R4302:4313 Coq.Arith.EqNat <> beq_nat_refl thm
-prf 4345:4357 <> hB_update_neq
-R4390:4392 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R4413:4415 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4396:4402 state <> ::x_'!hb->'_x_';'_x not
-R4404:4406 state <> ::x_'!hb->'_x_';'_x not
-R4407:4408 state <> hB var
-R4394:4395 state <> x2 var
-R4403:4403 state <> v var
-R4411:4412 state <> x1 var
-R4416:4417 state <> hB var
-R4419:4420 state <> x1 var
-R4384:4387 Coq.Init.Logic <> :type_scope:x_'<>'_x not
-R4382:4383 state <> x1 var
-R4388:4389 state <> x2 var
-R4449:4457 state <> hB_update def
-R4468:4474 Logic <> beq_neq thm
-R4468:4474 Logic <> beq_neq thm
-R4492:4499 Logic <> beq_comm thm
-R4492:4499 Logic <> beq_comm thm
-R4492:4499 Logic <> beq_comm thm
-prf 4547:4562 <> sV_update_shadow
-R4591:4591 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4624:4628 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4647:4647 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4593:4599 state <> ::x_'!sv->'_x_';'_x not
-R4602:4604 state <> ::x_'!sv->'_x_';'_x not
-R4606:4612 state <> ::x_'!sv->'_x_';'_x not
-R4615:4617 state <> ::x_'!sv->'_x_';'_x not
-R4618:4623 state <> storeV var
-R4605:4605 state <> x var
-R4613:4614 state <> v1 var
-R4592:4592 state <> x var
-R4600:4601 state <> v2 var
-R4630:4636 state <> ::x_'!sv->'_x_';'_x not
-R4639:4640 state <> ::x_'!sv->'_x_';'_x not
-R4641:4646 state <> storeV var
-R4629:4629 state <> x var
-R4637:4638 state <> v2 var
-R4675:4699 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R4675:4699 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R4721:4729 state <> sV_update def
-R4744:4749 util <> beq_id def
-R4744:4749 util <> beq_id def
-prf 4796:4811 <> sB_update_shadow
-R4840:4840 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4873:4877 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4896:4896 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4842:4848 state <> ::x_'!sb->'_x_';'_x not
-R4851:4853 state <> ::x_'!sb->'_x_';'_x not
-R4855:4861 state <> ::x_'!sb->'_x_';'_x not
-R4864:4866 state <> ::x_'!sb->'_x_';'_x not
-R4867:4872 state <> storeB var
-R4854:4854 state <> x var
-R4862:4863 state <> v1 var
-R4841:4841 state <> x var
-R4849:4850 state <> v2 var
-R4879:4885 state <> ::x_'!sb->'_x_';'_x not
-R4888:4889 state <> ::x_'!sb->'_x_';'_x not
-R4890:4895 state <> storeB var
-R4878:4878 state <> x var
-R4886:4887 state <> v2 var
-R4924:4948 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R4924:4948 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R4970:4978 state <> sB_update def
-R4993:4998 util <> beq_id def
-R4993:4998 util <> beq_id def
-prf 5045:5060 <> sF_update_shadow
-R5089:5089 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5122:5126 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5145:5145 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5091:5097 state <> ::x_'!sf->'_x_';'_x not
-R5100:5102 state <> ::x_'!sf->'_x_';'_x not
-R5104:5110 state <> ::x_'!sf->'_x_';'_x not
-R5113:5115 state <> ::x_'!sf->'_x_';'_x not
-R5116:5121 state <> storeF var
-R5103:5103 state <> x var
-R5111:5112 state <> v1 var
-R5090:5090 state <> x var
-R5098:5099 state <> v2 var
-R5128:5134 state <> ::x_'!sf->'_x_';'_x not
-R5137:5138 state <> ::x_'!sf->'_x_';'_x not
-R5139:5144 state <> storeF var
-R5127:5127 state <> x var
-R5135:5136 state <> v2 var
-R5173:5197 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R5173:5197 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R5219:5227 state <> sF_update def
-R5242:5247 util <> beq_id def
-R5242:5247 util <> beq_id def
-prf 5294:5309 <> hV_update_shadow
-R5337:5337 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5369:5373 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5391:5391 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5339:5345 state <> ::x_'!hv->'_x_';'_x not
-R5348:5350 state <> ::x_'!hv->'_x_';'_x not
-R5352:5358 state <> ::x_'!hv->'_x_';'_x not
-R5361:5363 state <> ::x_'!hv->'_x_';'_x not
-R5364:5368 state <> heapV var
-R5351:5351 state <> x var
-R5359:5360 state <> v1 var
-R5338:5338 state <> x var
-R5346:5347 state <> v2 var
-R5375:5381 state <> ::x_'!hv->'_x_';'_x not
-R5384:5385 state <> ::x_'!hv->'_x_';'_x not
-R5386:5390 state <> heapV var
-R5374:5374 state <> x var
-R5382:5383 state <> v2 var
-R5419:5443 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R5419:5443 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R5465:5473 state <> hV_update def
-R5488:5494 Coq.Arith.EqNat <> beq_nat syndef
-R5488:5494 Coq.Arith.EqNat <> beq_nat syndef
-prf 5541:5556 <> hB_update_shadow
-R5584:5584 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5616:5620 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5638:5638 Coq.Init.Logic <> :type_scope:x_'='_x not
-R5586:5592 state <> ::x_'!hb->'_x_';'_x not
-R5595:5597 state <> ::x_'!hb->'_x_';'_x not
-R5599:5605 state <> ::x_'!hb->'_x_';'_x not
-R5608:5610 state <> ::x_'!hb->'_x_';'_x not
-R5611:5615 state <> heapB var
-R5598:5598 state <> x var
-R5606:5607 state <> v1 var
-R5585:5585 state <> x var
-R5593:5594 state <> v2 var
-R5622:5628 state <> ::x_'!hb->'_x_';'_x not
-R5631:5632 state <> ::x_'!hb->'_x_';'_x not
-R5633:5637 state <> heapB var
-R5621:5621 state <> x var
-R5629:5630 state <> v2 var
-R5666:5690 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R5666:5690 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
-R5712:5720 state <> hB_update def
-R5735:5741 Coq.Arith.EqNat <> beq_nat syndef
-R5735:5741 Coq.Arith.EqNat <> beq_nat syndef
-def 5813:5817 <> state
-R5862:5864 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
-R5854:5856 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
-R5845:5847 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
-R5836:5838 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
-R5830:5835 state <> storeV def
-R5839:5844 state <> storeB def
-R5848:5853 state <> storeF def
-R5857:5861 state <> heapV def
-R5865:5869 state <> heapB def
-ind 5907:5915 <> ext_state
-constr 5930:5931 <> St
-constr 5977:5979 <> Abt
-R5939:5942 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R5943:5951 state <> ext_state ind
-R5934:5938 state <> state def
-R5982:5990 state <> ext_state ind
+R20:22 Aid <> <> lib
+R40:54 Coq.Arith.Arith <> <> lib
+R72:84 Coq.Bool.Bool <> <> lib
+R102:115 Coq.Lists.List <> <> lib
+R133:150 Coq.Strings.String <> <> lib
+R168:201 Coq.Logic.FunctionalExtensionality <> <> lib
+def 273:278 <> storeV
+R285:288 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R289:291 Coq.Init.Datatypes <> nat ind
+R283:284 util <> id ind
+def 305:310 <> storeB
+R317:320 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R321:323 Coq.Init.Datatypes <> nat ind
+R315:316 util <> id ind
+def 337:342 <> storeF
+R349:352 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R353:356 Coq.Init.Datatypes <> list ind
+R358:360 Coq.Init.Datatypes <> nat ind
+R347:348 util <> id ind
+def 434:438 <> heapV
+R446:449 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R450:455 Coq.Init.Datatypes <> option ind
+R457:459 Coq.Init.Datatypes <> nat ind
+R443:445 Coq.Init.Datatypes <> nat ind
+def 473:477 <> heapB
+R485:488 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R489:494 Coq.Init.Datatypes <> option ind
+R496:498 Coq.Init.Datatypes <> nat ind
+R482:484 Coq.Init.Datatypes <> nat ind
+def 530:538 <> emp_heapV
+R542:546 state <> heapV def
+R561:563 Coq.Init.Datatypes <> nat ind
+R569:572 Coq.Init.Datatypes <> None constr
+def 587:595 <> emp_heapB
+R599:603 state <> heapB def
+R618:620 Coq.Init.Datatypes <> nat ind
+R626:629 Coq.Init.Datatypes <> None constr
+def 685:691 <> in_domV
+R697:699 Coq.Init.Datatypes <> nat ind
+R707:711 state <> heapV def
+R726:732 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R734:735 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R740:742 Coq.Init.Logic <> :type_scope:x_'='_x not
+R736:737 state <> hv var
+R739:739 state <> l var
+R743:746 Coq.Init.Datatypes <> Some constr
+R748:748 state <> n var
+def 763:769 <> in_domB
+R775:777 Coq.Init.Datatypes <> nat ind
+R785:789 state <> heapB def
+R804:810 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R812:813 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R818:820 Coq.Init.Logic <> :type_scope:x_'='_x not
+R814:815 state <> hb var
+R817:817 state <> l var
+R821:824 Coq.Init.Datatypes <> Some constr
+R826:826 state <> n var
+def 885:895 <> not_in_domV
+R901:903 Coq.Init.Datatypes <> nat ind
+R911:915 state <> heapV def
+R934:936 Coq.Init.Logic <> :type_scope:x_'='_x not
+R930:931 state <> hv var
+R933:933 state <> l var
+R937:940 Coq.Init.Datatypes <> None constr
+def 955:965 <> not_in_domB
+R971:973 Coq.Init.Datatypes <> nat ind
+R981:985 state <> heapB def
+R1004:1006 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1000:1001 state <> hb var
+R1003:1003 state <> l var
+R1007:1010 Coq.Init.Datatypes <> None constr
+prf 1087:1101 <> in_not_in_dec_V
+R1119:1119 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1131:1135 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1151:1151 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1120:1126 state <> in_domV def
+R1130:1130 state <> h var
+R1128:1128 state <> l var
+R1136:1146 state <> not_in_domV def
+R1150:1150 state <> h var
+R1148:1148 state <> l var
+R1184:1190 state <> in_domV def
+R1193:1203 state <> not_in_domV def
+prf 1281:1295 <> in_not_in_dec_B
+R1313:1313 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1325:1329 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1345:1345 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1314:1320 state <> in_domB def
+R1324:1324 state <> h var
+R1322:1322 state <> l var
+R1330:1340 state <> not_in_domB def
+R1344:1344 state <> h var
+R1342:1342 state <> l var
+R1378:1384 state <> in_domB def
+R1387:1397 state <> not_in_domB def
+def 1511:1519 <> disjointV
+R1529:1533 state <> heapV def
+R1574:1577 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1558:1568 state <> not_in_domV def
+R1572:1573 state <> h1 var
+R1570:1570 state <> l var
+R1578:1588 state <> not_in_domV def
+R1592:1593 state <> h2 var
+R1590:1590 state <> l var
+def 1608:1616 <> disjointB
+R1626:1630 state <> heapB def
+R1671:1674 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1655:1665 state <> not_in_domB def
+R1669:1670 state <> h1 var
+R1667:1667 state <> l var
+R1675:1685 state <> not_in_domB def
+R1689:1690 state <> h2 var
+R1687:1687 state <> l var
+def 1728:1735 <> h_unionV
+R1745:1749 state <> heapV def
+R1754:1758 state <> heapV def
+R1782:1796 state <> in_not_in_dec_V thm
+R1800:1801 state <> h1 var
+R1798:1798 state <> l var
+R1819:1820 state <> h2 var
+R1822:1822 state <> l var
+R1809:1810 state <> h1 var
+R1812:1812 state <> l var
+def 1837:1844 <> h_unionB
+R1854:1858 state <> heapB def
+R1863:1867 state <> heapB def
+R1891:1905 state <> in_not_in_dec_B thm
+R1909:1910 state <> h1 var
+R1907:1907 state <> l var
+R1928:1929 state <> h2 var
+R1931:1931 state <> l var
+R1918:1919 state <> h1 var
+R1921:1921 state <> l var
+def 1974:1982 <> h_subsetV
+R1992:1996 state <> heapV def
+R2036:2039 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2044:2046 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2040:2041 state <> h2 var
+R2043:2043 state <> l var
+R2047:2050 Coq.Init.Datatypes <> Some constr
+R2052:2052 state <> n var
+R2027:2029 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2023:2024 state <> h1 var
+R2026:2026 state <> l var
+R2030:2033 Coq.Init.Datatypes <> Some constr
+R2035:2035 state <> n var
+def 2067:2075 <> h_subsetB
+R2085:2089 state <> heapB def
+R2129:2132 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2137:2139 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2133:2134 state <> h2 var
+R2136:2136 state <> l var
+R2140:2143 Coq.Init.Datatypes <> Some constr
+R2145:2145 state <> n var
+R2120:2122 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2116:2117 state <> h1 var
+R2119:2119 state <> l var
+R2123:2126 Coq.Init.Datatypes <> Some constr
+R2128:2128 state <> n var
+def 2180:2188 <> sV_update
+R2194:2199 state <> storeV def
+R2206:2207 util <> id ind
+R2214:2216 Coq.Init.Datatypes <> nat ind
+R2221:2226 state <> storeV def
+R2246:2251 util <> beq_id def
+R2255:2256 state <> x' var
+R2253:2253 state <> x var
+R2270:2270 state <> s var
+R2272:2273 state <> x' var
+R2263:2263 state <> n var
+def 2288:2296 <> sB_update
+R2302:2307 state <> storeB def
+R2314:2315 util <> id ind
+R2322:2324 Coq.Init.Datatypes <> nat ind
+R2329:2334 state <> storeB def
+R2354:2359 util <> beq_id def
+R2363:2364 state <> x' var
+R2361:2361 state <> x var
+R2378:2378 state <> s var
+R2380:2381 state <> x' var
+R2371:2371 state <> n var
+def 2396:2404 <> sF_update
+R2410:2415 state <> storeF def
+R2422:2423 util <> id ind
+R2432:2435 Coq.Init.Datatypes <> list ind
+R2437:2439 Coq.Init.Datatypes <> nat ind
+R2444:2449 state <> storeF def
+R2469:2474 util <> beq_id def
+R2478:2479 state <> x' var
+R2476:2476 state <> x var
+R2495:2495 state <> s var
+R2497:2498 state <> x' var
+R2486:2488 state <> nli var
+R2535:2543 state <> sV_update def
+not 2511:2511 <> ::x_'!sv->'_x_';'_x
+R2652:2660 state <> sB_update def
+not 2628:2628 <> ::x_'!sb->'_x_';'_x
+R2769:2777 state <> sF_update def
+not 2745:2745 <> ::x_'!sf->'_x_';'_x
+def 2882:2890 <> hV_update
+R2896:2900 state <> heapV def
+R2907:2909 Coq.Init.Datatypes <> nat ind
+R2916:2918 Coq.Init.Datatypes <> nat ind
+R2923:2927 state <> heapV def
+R2947:2953 Coq.Arith.EqNat <> beq_nat syndef
+R2957:2958 state <> l' var
+R2955:2955 state <> l var
+R2977:2977 state <> h var
+R2979:2980 state <> l' var
+R2965:2968 Coq.Init.Datatypes <> Some constr
+R2970:2970 state <> n var
+def 2995:3003 <> hB_update
+R3009:3013 state <> heapB def
+R3020:3022 Coq.Init.Datatypes <> nat ind
+R3029:3031 Coq.Init.Datatypes <> nat ind
+R3036:3040 state <> heapB def
+R3060:3066 Coq.Arith.EqNat <> beq_nat syndef
+R3070:3071 state <> l' var
+R3068:3068 state <> l var
+R3090:3090 state <> h var
+R3092:3093 state <> l' var
+R3078:3081 Coq.Init.Datatypes <> Some constr
+R3083:3083 state <> n var
+R3130:3138 state <> hV_update def
+not 3106:3106 <> ::x_'!hv->'_x_';'_x
+R3247:3255 state <> hB_update def
+not 3223:3223 <> ::x_'!hb->'_x_';'_x
+def 3361:3369 <> hV_remove
+R3374:3378 state <> heapV def
+R3384:3386 Coq.Init.Datatypes <> nat ind
+R3391:3395 state <> heapV def
+R3412:3418 Coq.Arith.EqNat <> beq_nat syndef
+R3422:3422 state <> l var
+R3420:3420 state <> x var
+R3439:3439 state <> h var
+R3441:3441 state <> x var
+R3429:3432 Coq.Init.Datatypes <> None constr
+def 3456:3464 <> hB_remove
+R3469:3473 state <> heapB def
+R3479:3481 Coq.Init.Datatypes <> nat ind
+R3486:3490 state <> heapB def
+R3507:3513 Coq.Arith.EqNat <> beq_nat syndef
+R3517:3517 state <> l var
+R3515:3515 state <> x var
+R3534:3534 state <> h var
+R3536:3536 state <> x var
+R3524:3527 Coq.Init.Datatypes <> None constr
+prf 3567:3578 <> sV_update_eq
+R3626:3628 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3606:3612 state <> ::x_'!sv->'_x_';'_x not
+R3614:3616 state <> ::x_'!sv->'_x_';'_x not
+R3617:3622 state <> storeV var
+R3605:3605 state <> x var
+R3613:3613 state <> v var
+R3625:3625 state <> x var
+R3629:3629 state <> v var
+R3658:3666 state <> sV_update def
+R3679:3689 util <> beq_id_refl thm
+R3679:3689 util <> beq_id_refl thm
+R3679:3689 util <> beq_id_refl thm
+prf 3719:3730 <> sB_update_eq
+R3778:3780 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3758:3764 state <> ::x_'!sb->'_x_';'_x not
+R3766:3768 state <> ::x_'!sb->'_x_';'_x not
+R3769:3774 state <> storeB var
+R3757:3757 state <> x var
+R3765:3765 state <> v var
+R3777:3777 state <> x var
+R3781:3781 state <> v var
+R3810:3818 state <> sB_update def
+R3831:3841 util <> beq_id_refl thm
+R3831:3841 util <> beq_id_refl thm
+R3831:3841 util <> beq_id_refl thm
+prf 3871:3882 <> sF_update_eq
+R3930:3932 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3910:3916 state <> ::x_'!sf->'_x_';'_x not
+R3918:3920 state <> ::x_'!sf->'_x_';'_x not
+R3921:3926 state <> storeF var
+R3909:3909 state <> x var
+R3917:3917 state <> v var
+R3929:3929 state <> x var
+R3933:3933 state <> v var
+R3962:3970 state <> sF_update def
+R3983:3993 util <> beq_id_refl thm
+R3983:3993 util <> beq_id_refl thm
+R3983:3993 util <> beq_id_refl thm
+prf 4023:4034 <> hV_update_eq
+R4080:4082 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4061:4067 state <> ::x_'!hv->'_x_';'_x not
+R4069:4071 state <> ::x_'!hv->'_x_';'_x not
+R4072:4076 state <> heapV var
+R4060:4060 state <> x var
+R4068:4068 state <> v var
+R4079:4079 state <> x var
+R4083:4086 Coq.Init.Datatypes <> Some constr
+R4088:4088 state <> v var
+R4117:4125 state <> hV_update def
+R4141:4152 Coq.Arith.EqNat <> beq_nat_refl thm
+R4141:4152 Coq.Arith.EqNat <> beq_nat_refl thm
+R4141:4152 Coq.Arith.EqNat <> beq_nat_refl thm
+prf 4182:4193 <> hB_update_eq
+R4239:4241 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4220:4226 state <> ::x_'!hb->'_x_';'_x not
+R4228:4230 state <> ::x_'!hb->'_x_';'_x not
+R4231:4235 state <> heapB var
+R4219:4219 state <> x var
+R4227:4227 state <> v var
+R4238:4238 state <> x var
+R4242:4245 Coq.Init.Datatypes <> Some constr
+R4247:4247 state <> v var
+R4276:4284 state <> hB_update def
+R4300:4311 Coq.Arith.EqNat <> beq_nat_refl thm
+R4300:4311 Coq.Arith.EqNat <> beq_nat_refl thm
+R4300:4311 Coq.Arith.EqNat <> beq_nat_refl thm
+prf 4343:4355 <> hB_update_neq
+R4388:4390 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4411:4413 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4394:4400 state <> ::x_'!hb->'_x_';'_x not
+R4402:4404 state <> ::x_'!hb->'_x_';'_x not
+R4405:4406 state <> hB var
+R4392:4393 state <> x2 var
+R4401:4401 state <> v var
+R4409:4410 state <> x1 var
+R4414:4415 state <> hB var
+R4417:4418 state <> x1 var
+R4382:4385 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R4380:4381 state <> x1 var
+R4386:4387 state <> x2 var
+R4447:4455 state <> hB_update def
+R4466:4472 Aid <> beq_neq thm
+R4466:4472 Aid <> beq_neq thm
+R4490:4497 Aid <> beq_comm thm
+R4490:4497 Aid <> beq_comm thm
+R4490:4497 Aid <> beq_comm thm
+prf 4545:4560 <> sV_update_shadow
+R4589:4589 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4622:4626 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4645:4645 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4591:4597 state <> ::x_'!sv->'_x_';'_x not
+R4600:4602 state <> ::x_'!sv->'_x_';'_x not
+R4604:4610 state <> ::x_'!sv->'_x_';'_x not
+R4613:4615 state <> ::x_'!sv->'_x_';'_x not
+R4616:4621 state <> storeV var
+R4603:4603 state <> x var
+R4611:4612 state <> v1 var
+R4590:4590 state <> x var
+R4598:4599 state <> v2 var
+R4628:4634 state <> ::x_'!sv->'_x_';'_x not
+R4637:4638 state <> ::x_'!sv->'_x_';'_x not
+R4639:4644 state <> storeV var
+R4627:4627 state <> x var
+R4635:4636 state <> v2 var
+R4673:4697 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R4673:4697 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R4719:4727 state <> sV_update def
+R4742:4747 util <> beq_id def
+R4742:4747 util <> beq_id def
+prf 4794:4809 <> sB_update_shadow
+R4838:4838 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4871:4875 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4894:4894 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4840:4846 state <> ::x_'!sb->'_x_';'_x not
+R4849:4851 state <> ::x_'!sb->'_x_';'_x not
+R4853:4859 state <> ::x_'!sb->'_x_';'_x not
+R4862:4864 state <> ::x_'!sb->'_x_';'_x not
+R4865:4870 state <> storeB var
+R4852:4852 state <> x var
+R4860:4861 state <> v1 var
+R4839:4839 state <> x var
+R4847:4848 state <> v2 var
+R4877:4883 state <> ::x_'!sb->'_x_';'_x not
+R4886:4887 state <> ::x_'!sb->'_x_';'_x not
+R4888:4893 state <> storeB var
+R4876:4876 state <> x var
+R4884:4885 state <> v2 var
+R4922:4946 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R4922:4946 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R4968:4976 state <> sB_update def
+R4991:4996 util <> beq_id def
+R4991:4996 util <> beq_id def
+prf 5043:5058 <> sF_update_shadow
+R5087:5087 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5120:5124 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5143:5143 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5089:5095 state <> ::x_'!sf->'_x_';'_x not
+R5098:5100 state <> ::x_'!sf->'_x_';'_x not
+R5102:5108 state <> ::x_'!sf->'_x_';'_x not
+R5111:5113 state <> ::x_'!sf->'_x_';'_x not
+R5114:5119 state <> storeF var
+R5101:5101 state <> x var
+R5109:5110 state <> v1 var
+R5088:5088 state <> x var
+R5096:5097 state <> v2 var
+R5126:5132 state <> ::x_'!sf->'_x_';'_x not
+R5135:5136 state <> ::x_'!sf->'_x_';'_x not
+R5137:5142 state <> storeF var
+R5125:5125 state <> x var
+R5133:5134 state <> v2 var
+R5171:5195 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5171:5195 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5217:5225 state <> sF_update def
+R5240:5245 util <> beq_id def
+R5240:5245 util <> beq_id def
+prf 5292:5307 <> hV_update_shadow
+R5335:5335 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5367:5371 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5389:5389 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5337:5343 state <> ::x_'!hv->'_x_';'_x not
+R5346:5348 state <> ::x_'!hv->'_x_';'_x not
+R5350:5356 state <> ::x_'!hv->'_x_';'_x not
+R5359:5361 state <> ::x_'!hv->'_x_';'_x not
+R5362:5366 state <> heapV var
+R5349:5349 state <> x var
+R5357:5358 state <> v1 var
+R5336:5336 state <> x var
+R5344:5345 state <> v2 var
+R5373:5379 state <> ::x_'!hv->'_x_';'_x not
+R5382:5383 state <> ::x_'!hv->'_x_';'_x not
+R5384:5388 state <> heapV var
+R5372:5372 state <> x var
+R5380:5381 state <> v2 var
+R5417:5441 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5417:5441 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5463:5471 state <> hV_update def
+R5486:5492 Coq.Arith.EqNat <> beq_nat syndef
+R5486:5492 Coq.Arith.EqNat <> beq_nat syndef
+prf 5539:5554 <> hB_update_shadow
+R5582:5582 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5614:5618 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5636:5636 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5584:5590 state <> ::x_'!hb->'_x_';'_x not
+R5593:5595 state <> ::x_'!hb->'_x_';'_x not
+R5597:5603 state <> ::x_'!hb->'_x_';'_x not
+R5606:5608 state <> ::x_'!hb->'_x_';'_x not
+R5609:5613 state <> heapB var
+R5596:5596 state <> x var
+R5604:5605 state <> v1 var
+R5583:5583 state <> x var
+R5591:5592 state <> v2 var
+R5620:5626 state <> ::x_'!hb->'_x_';'_x not
+R5629:5630 state <> ::x_'!hb->'_x_';'_x not
+R5631:5635 state <> heapB var
+R5619:5619 state <> x var
+R5627:5628 state <> v2 var
+R5664:5688 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5664:5688 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5710:5718 state <> hB_update def
+R5733:5739 Coq.Arith.EqNat <> beq_nat syndef
+R5733:5739 Coq.Arith.EqNat <> beq_nat syndef
+def 5811:5815 <> state
+R5860:5862 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5852:5854 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5843:5845 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5834:5836 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5828:5833 state <> storeV def
+R5837:5842 state <> storeB def
+R5846:5851 state <> storeF def
+R5855:5859 state <> heapV def
+R5863:5867 state <> heapB def
+ind 5905:5913 <> ext_state
+constr 5928:5929 <> St
+constr 5975:5977 <> Abt
+R5937:5940 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5941:5949 state <> ext_state ind
+R5932:5936 state <> state def
+R5980:5988 state <> ext_state ind
