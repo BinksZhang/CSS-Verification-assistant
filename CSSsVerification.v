@@ -1,5 +1,6 @@
 Require Export Coq.omega.Omega.
 Require Export Coq.Bool.Bool.
+Require Import String.
 Require Export Coq.Arith.Arith.
 Require Export Coq.Arith.EqNat.
 Require Export Coq.Lists.List.
@@ -11,7 +12,7 @@ Require Export util.
 Require Export language.
 Require Export semantic.
 Require Export state.
-Require Export Logic.
+Require Export Aid.
 
 
 (*Some variables*)

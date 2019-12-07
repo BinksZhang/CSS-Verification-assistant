@@ -1,72 +1,73 @@
-DIGEST c78f1e386d20a355d3cbe388f882cc0d
+DIGEST 800f1219c304a28db38d2e5d5fa7264f
 FCSSsVerification
 R15:29 Coq.omega.Omega <> <> lib
 R47:59 Coq.Bool.Bool <> <> lib
-R77:91 Coq.Arith.Arith <> <> lib
-R109:123 Coq.Arith.EqNat <> <> lib
-R141:154 Coq.Lists.List <> <> lib
-R172:205 Coq.Logic.FunctionalExtensionality <> <> lib
-R272:275 util <> <> lib
-R293:300 language <> <> lib
-R318:325 semantic <> <> lib
-R343:347 state <> <> lib
-R365:369 Logic <> <> lib
-def 404:404 <> i
-R409:410 util <> id ind
-R415:416 util <> Id constr
-def 434:435 <> f1
-R439:440 util <> id ind
-R445:446 util <> Id constr
-def 465:466 <> f2
-R470:471 util <> id ind
-R476:477 util <> Id constr
-def 496:497 <> f3
-R501:502 util <> id ind
-R507:508 util <> Id constr
-def 527:528 <> f4
-R532:533 util <> id ind
-R538:539 util <> Id constr
-def 558:559 <> f5
-R563:564 util <> id ind
-R569:570 util <> Id constr
-def 589:590 <> f6
-R594:595 util <> id ind
-R600:601 util <> Id constr
-def 620:621 <> f7
-R625:626 util <> id ind
-R631:632 util <> Id constr
-def 651:652 <> bc
-R656:657 util <> id ind
-R662:663 util <> Id constr
-def 682:684 <> bk1
-R688:689 util <> id ind
-R694:695 util <> Id constr
-def 715:717 <> bk2
-R721:722 util <> id ind
-R727:728 util <> Id constr
-def 748:749 <> tv
-R753:754 util <> id ind
-R759:760 util <> Id constr
-def 814:819 <> emp_sV
-R823:828 state <> storeV def
-R844:845 util <> id ind
-def 866:871 <> emp_sB
-R875:880 state <> storeB def
-R896:897 util <> id ind
-def 918:923 <> emp_sF
-R927:932 state <> storeF def
-R948:949 util <> id ind
-R955:956 Coq.Lists.List ListNotations :list_scope:'['_']' not
-def 971:978 <> empty_st
-R982:986 state <> state def
-R994:994 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R1001:1002 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R1009:1010 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R1017:1018 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R1028:1029 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R1039:1039 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R995:1000 CSSsVerification <> emp_sV def
-R1003:1008 CSSsVerification <> emp_sB def
-R1011:1016 CSSsVerification <> emp_sF def
-R1019:1027 state <> emp_heapV def
-R1030:1038 state <> emp_heapB def
+R77:82 Coq.Strings.String <> <> lib
+R100:114 Coq.Arith.Arith <> <> lib
+R132:146 Coq.Arith.EqNat <> <> lib
+R164:177 Coq.Lists.List <> <> lib
+R195:228 Coq.Logic.FunctionalExtensionality <> <> lib
+R295:298 util <> <> lib
+R316:323 language <> <> lib
+R341:348 semantic <> <> lib
+R366:370 state <> <> lib
+R388:392 Logic <> <> lib
+def 427:427 <> i
+R432:433 util <> id ind
+R438:439 util <> Id constr
+def 457:458 <> f1
+R462:463 util <> id ind
+R468:469 util <> Id constr
+def 488:489 <> f2
+R493:494 util <> id ind
+R499:500 util <> Id constr
+def 519:520 <> f3
+R524:525 util <> id ind
+R530:531 util <> Id constr
+def 550:551 <> f4
+R555:556 util <> id ind
+R561:562 util <> Id constr
+def 581:582 <> f5
+R586:587 util <> id ind
+R592:593 util <> Id constr
+def 612:613 <> f6
+R617:618 util <> id ind
+R623:624 util <> Id constr
+def 643:644 <> f7
+R648:649 util <> id ind
+R654:655 util <> Id constr
+def 674:675 <> bc
+R679:680 util <> id ind
+R685:686 util <> Id constr
+def 705:707 <> bk1
+R711:712 util <> id ind
+R717:718 util <> Id constr
+def 738:740 <> bk2
+R744:745 util <> id ind
+R750:751 util <> Id constr
+def 771:772 <> tv
+R776:777 util <> id ind
+R782:783 util <> Id constr
+def 837:842 <> emp_sV
+R846:851 state <> storeV def
+R867:868 util <> id ind
+def 889:894 <> emp_sB
+R898:903 state <> storeB def
+R919:920 util <> id ind
+def 941:946 <> emp_sF
+R950:955 state <> storeF def
+R971:972 util <> id ind
+R978:979 Coq.Lists.List ListNotations :list_scope:'['_']' not
+def 994:1001 <> empty_st
+R1005:1009 state <> state def
+R1017:1017 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1024:1025 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1032:1033 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1040:1041 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1051:1052 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1062:1062 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1018:1023 CSSsVerification <> emp_sV def
+R1026:1031 CSSsVerification <> emp_sB def
+R1034:1039 CSSsVerification <> emp_sF def
+R1042:1050 state <> emp_heapV def
+R1053:1061 state <> emp_heapB def
